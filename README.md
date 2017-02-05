@@ -22,10 +22,11 @@ class OtherClass:
     def __init__(self, pk, name):
         self.id = pk
         self.name = name
-
+```
        
 Second:  use as follows
 
+```python
 from dinjector import dinjector
 
 o1 = dinjector.new("one")
