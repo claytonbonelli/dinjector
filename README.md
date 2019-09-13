@@ -1,4 +1,7 @@
 # dinjector
+
+###### By Clayton Boneli
+
 A Python implementation for dependency injection. Through the injection of dependencies it is possible to obtain a weak coupling between different classes. The purpose is not to explicitly import classes when it is necessary to create instances of these classes, but instantiations will be created through a name (a selector) associated with a class, and through this selector new instances will be created and no explicit import will be made. In this way we guarantee that a class and the place where it is used does not have a strong coupling.
 
 
